@@ -69,22 +69,22 @@ h1,h2,h3,h4,h5,h6 {
     font-weight: var(--font-weight-bold);
 }
 
-a[href]:not([href=""]) {
+a {
     color: var(--color-white);
     text-decoration: none;
   }
   
-  a[href]:not([href=""]):visited {
+  a:visited {
     /* Styles for visited state */
     font-style: italic;
   }
   
-  a[href]:not([href=""]):hover {
+  a:hover {
     /* Styles for hover state */
     text-decoration: underline;
   }
   
-  a[href]:not([href=""]):active {
+  a:active {
     /* Styles for active state */
     background-color: var(--color-light-grey);
   }
