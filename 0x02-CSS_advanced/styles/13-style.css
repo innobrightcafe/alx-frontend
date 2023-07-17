@@ -75,17 +75,14 @@ a {
   }
   
   a:visited {
-    /* Styles for visited state */
     font-style: italic;
   }
   
   a:hover {
-    /* Styles for hover state */
     text-decoration: underline;
   }
   
   a:active {
-    /* Styles for active state */
-    background-color: var(--color-light-grey);
+    background: var(--color-light-grey);
   }
   
