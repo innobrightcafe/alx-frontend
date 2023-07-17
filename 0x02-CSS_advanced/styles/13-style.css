@@ -19,6 +19,14 @@ body {
     color:var(--color-primary);
 }
 
+.section-title {
+    font-family: var(--font-family-title);
+    font-size: var(--font-size-xx-large);
+    font-weight: var(--font-weight-bold);
+    margin: var(--section-title-margin);
+    color: var(--section-title-color);
+}
+
 .section-tagline {
     color:var(--color-primary);
     font-family: var(--font-family-title);
@@ -51,6 +59,8 @@ body {
     --line-height-big: 1.8;
     --section-header-align: center;
     --section-tagline-transform: uppercase;
+    --section-title-margin: 0;
+    --section-title-color: var(--color-black)
 
 }
 
@@ -63,3 +73,23 @@ a {
     color: var(--color-white);
     text-decoration: none;
 }
+a[href]:not([href=""]) {
+    color: var(--color-white);
+    text-decoration: none;
+  }
+  
+  a[href]:not([href=""]):visited {
+    /* Styles for visited state */
+    font-style: italic;
+  }
+  
+  a[href]:not([href=""]):hover {
+    /* Styles for hover state */
+    text-decoration: underline;
+  }
+  
+  a[href]:not([href=""]):active {
+    /* Styles for active state */
+    background-color: var(--color-light-grey);
+  }
+  
