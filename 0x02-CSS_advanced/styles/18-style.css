@@ -59,44 +59,36 @@ body {
 .section-footer {
     padding: var(--section-footer-padding);
     text-align: var(--section-footer-align);
-}
-
-.navbar-menu {
+}.navbar-menu {
     float: right;
-}
-
-nav {
+  }
+  
+  nav {
     margin: 0;
     padding: 0;
-    text-align: center;
-}
-
-nav ul {
     list-style: none;
-}
-
-.nav-item {
+    text-align: center;
+  }
+  
+  .nav-item {
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
     letter-spacing: var(--nav-item-letter-spacing);
     display: var(--nav-item-display);
     margin: var(--nav-item-margin);
-
-}
-
-.nav-link {
+  }
+  
+  .nav-link {
     display: block;
     padding: calc(var(--root-element) / 2) var(--root-element);
-}
-
-nav .nav-link {
+  }
+  
+  .nav-link:hover {
     color: var(--nav-item-link-hover);
-}
+  }
 
-nav .nav-link:hover {
-    color: var(--nav-item-link-hover);
-}
+
 
 :root {
     --color-primary: #D73953;
@@ -127,14 +119,13 @@ nav .nav-link:hover {
     --section-footer-padding: 3rem 0 0;
     --section-footer-align: center;
     --footer-padding: 5rem 0 1rem;
-    --nav-item-font-family: var(--font-family-title);
-    --nav-item-font-weight: var(--font-weight-bold);
-    --nav-item-font-size: var(--font-size-medium);
+    --nav-item-font-family: font-family-title;
+    --nav-item-font-weight: font-weight-bold;
+    --nav-item-font-size: font-size-medium;
     --nav-item-letter-spacing: 4%;
     --nav-item-display: inline-block;
-    --nav-item-margin: 0 0 calc(3 * var(--root-element));
-    --nav-item-link-hover: var(--color-primary);
-    --root-element: 16px;
+    --nav-item-margin: calc(3 * var(--root-element));
+    --nav-item-link-hover: color-primary;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -162,7 +153,7 @@ a {
     background-color: var(--color-light-grey);
   }
   
-/*!normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css*/
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css*/
 html{line-height:1.15;-webkit-text-size-adjust:100%}
 body{margin:0}main{display:block}
 h1{font-size:2em;margin:.67em 0}
