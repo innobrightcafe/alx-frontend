@@ -61,6 +61,41 @@ body {
     text-align: var(--section-footer-align);
 }
 
+.navbar-menu {
+    float: right;
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    text-align: center;
+}
+
+nav .nav-item {
+    font-family: var(--nav-item-font-family);
+    font-weight: var(--nav-item-font-weight);
+    font-size: var(--nav-item-font-size);
+    letter-spacing: var(--nav-item-letter-spacing);
+    display: var(--nav-item-display);
+
+}
+
+nav .nav-link {
+    display: block;
+    padding: var(--nav-link-padding-top-buttom) var(--nav-link-padding-left-right);
+}
+
+nav .nav-link {
+    color: var(--nav-item-link-hover);
+}
+
 :root {
     --color-primary: #D73953;
     --color-black: #090909;
@@ -90,6 +125,16 @@ body {
     --section-footer-padding: 3rem 0 0;
     --section-footer-align: center;
     --footer-padding: 5rem 0 1rem;
+    --nav-item-font-family: var(--font-family-title);
+    --nav-item-font-weight: var(--font-weight-bold);
+    --nav-item-font-size: var(--font-size-medium);
+    --nav-item-letter-spacing: 4%;
+    --nav-item-display: inline-block;
+    --nav-item-margin-bottom: calc(3 * var(--root-element));
+    --nav-item-margin: 0;
+    --nav-item-link-hover: var(--color-primary)
+
+
 
 
 }
