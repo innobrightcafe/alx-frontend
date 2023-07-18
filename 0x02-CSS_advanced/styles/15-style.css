@@ -97,7 +97,7 @@ a {
     background-color: var(--color-light-grey);
   }
   
-! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css
+/*!normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css*/
 html{line-height:1.15;-webkit-text-size-adjust:100%}
 body{margin:0}main{display:block}
 h1{font-size:2em;margin:.67em 0}
@@ -121,4 +121,4 @@ textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;paddin
 details{display:block}
 summary{display:list-item}
 template{display:none}[hidden]{display:none}
-sourceMappingURL=normalize.min.css.map
+/*sourceMappingURL=normalize.min.css.map*/
