@@ -68,28 +68,26 @@ body {
 nav {
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 nav ul {
     list-style: none;
 }
 
-nav li {
-    text-align: center;
-}
-
-nav .nav-item {
+.nav-item {
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
     letter-spacing: var(--nav-item-letter-spacing);
     display: var(--nav-item-display);
+    margin: var(--nav-item-margin);
 
 }
 
-nav .nav-link {
+.nav-link {
     display: block;
-    padding: var(--nav-link-padding-top-buttom) var(--nav-link-padding-left-right);
+    padding: calc(var(--root-element) / 2) var(--root-element);
 }
 
 nav .nav-link {
