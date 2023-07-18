@@ -130,11 +130,11 @@ nav .nav-link:hover {
     --nav-item-font-family: var(--font-family-title);
     --nav-item-font-weight: var(--font-weight-bold);
     --nav-item-font-size: var(--font-size-medium);
-    --nav-item-letter-spacing: calc(0.04 * var(--root-element));
+    --nav-item-letter-spacing: 4%;
     --nav-item-display: inline-block;
-    --nav-item-margin-bottom: calc(3 * var(--root-element));
-    --nav-item-margin: 0;
+    --nav-item-margin: 0 0 calc(3 * var(--root-element));
     --nav-item-link-hover: var(--color-primary);
+    --root-element: 16px;
 }
 
 h1,h2,h3,h4,h5,h6 {
